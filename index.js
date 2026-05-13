@@ -6,10 +6,10 @@ menuBtn.addEventListener('click', () => {
 });
 
 window.addEventListener('click', (e) => {
-  if (
-    !sidebar.contains(e.target) &&
-    !menuBtn.contains(e.target)
-  ) {
+  const clickedInsideSidebar = sidebar.contains(e.target);
+  const clickedMenuBtn = menuBtn.contains(e.target);
+
+  if (!clickedInsideSidebar && !clickedMenuBtn) {
     sidebar.classList.remove('active');
   }
 });
