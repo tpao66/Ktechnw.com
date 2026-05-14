@@ -141,7 +141,7 @@ header{
 
 .search-box input{
   width:100%;
-  padding:10px 14px;
+  padding:5px 5px;
   border:none;
   border-radius:40px;
   background:#111827;
@@ -159,14 +159,6 @@ header{
   text-decoration:none;
   color:#fff;
   font-size:12px;
-}
-
-.publish-btn{
-  background:#38bdf8;
-  color:#000 !important;
-  padding:8px 14px;
-  border-radius:30px;
-  font-weight:600;
 }
 
 /* HERO */
@@ -235,7 +227,7 @@ header{
 
 /* FEATURED NEWS */
 .featured-news{
-  padding:10px;
+  padding:0px;
 }
 
 .media-image-grid,
@@ -248,7 +240,7 @@ header{
 
 .media-post{
   background:#0f172a;
-  border-radius:12px;
+  border-radius:0px;
   overflow:hidden;
 }
 
@@ -261,7 +253,7 @@ header{
 }
 
 .media-text{
-  padding:12px;
+  padding:12 itpx;
 }
 
 .media-text h3{
